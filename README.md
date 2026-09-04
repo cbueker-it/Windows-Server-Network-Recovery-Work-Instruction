@@ -13,23 +13,21 @@ Approval Status: Not Applicable
 
 **Purpose**
 
-The purpose of this work instruction is to provide a repeatable first-line troubleshooting process for a Windows Server that is reported as unreachable when a disabled network adapter may be the cause.
+The purpose and objective of this work instruction is to provide a repeatable first-line troubleshooting process for a Windows Server 2022 system that is unreachable when a disabled network adapter may be the cause.
 
-The procedure guides the technician through confirming the reported condition, validating the local TCP/IP stack, inspecting the network adapter, performing approved remediation, validating recovery from the original administrative workstation, and documenting the outcome.
+The procedure that is described here guides the IT technician through confirming that the server is unreachable, validating the local TCP/IP stack by pinging the loopback address, inspecting the network adapter, performing the approved remediation, restoring the network adapter, validating that the recovery worked from the original administrative workstation, and documenting the outcome.
 
 **Scope**
 
-This work instruction applies to Windows Server systems where:
+This work instruction applies to Windows Server systems where the server is reported as unreachable and is not responding to a basic ping test.
 
-- The server has been reported as unreachable or not responding to a basic connectivity test.
-- Local console, hypervisor console, or other approved direct access to the server remains available.
-- First-line personnel are authorized to inspect and re-enable a disabled network adapter.
+It applies when local console, hypervisor, or other approved direct access to the server remains available and when first-line technicians are authorized to inspect and re-enable a disabled network adapter.
 
-Issues that extend beyond the defined first-line troubleshooting scope should be documented and escalated to the appropriate team according to organizational procedures.
+Technical issues that go beyond this defined troubleshooting scope should be documented and escalated to the appropriate team according to organizational procedures.
 
 **Intended Audience**
 
-This work instruction is intended for Command Center, Infrastructure Operations Center, Service Desk, or other first-line IT personnel responsible for initial server connectivity validation and approved remediation.
+This work instruction is designed for Command Center, Infrastructure Operations Center, Service Desk, or other first-line IT personnel and IT technicians responsible for initial server connectivity validation and approved remediation.
 
 **Required Access and Prerequisites**
 
@@ -41,13 +39,18 @@ This work instruction is intended for Command Center, Infrastructure Operations 
 
 **Cautions**
 
-Changes to a network adapter can interrupt remote connectivity. Confirm that console access is available before disabling, enabling, restarting, or otherwise modifying a server network interface.
+Making changes to or modifying the status of a network adapter can interrupt remote connectivity.
 
-Do not perform broader network, firewall, routing, VLAN, operating-system, or infrastructure changes unless they are within the technician's authorized scope. Document findings and escalate when the issue exceeds the scope of this instruction.
+Confirm that console access is available before disabling, enabling, restarting, or otherwise modifying a server network interface.
+
+Do not perform broader network, firewall, routing, VLAN, operating system, or infrastructure changes unless they are within your authorized scope. Document the findings and escalate the issue when it goes beyond the scope of this work instruction.
+
 
 **Expected Outcome**
 
-At completion of this procedure, the technician should be able to determine whether a disabled Windows Server network adapter caused the reported connectivity failure, restore the adapter when authorized, validate connectivity from the original workstation, and document either successful resolution or the need for escalation.
+When this procedure is completed, the technician should be able to determine whether a disabled Windows Server network adapter caused the reported connectivity failure.
+
+The technician should be able to restore the adapter when authorized, validate connectivity from the original administrative workstation, and document either a successful resolution or the need for escalation.
 
 **Network Adapter Troubleshooting Decision Tree**
 
