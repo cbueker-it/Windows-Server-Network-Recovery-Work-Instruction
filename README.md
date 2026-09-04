@@ -155,27 +155,17 @@ The technician should be able to restore the adapter when authorized, validate c
 - Record that the network adapter was found disabled, was successfully restored, and that connectivity was confirmed from the original administrative workstation.
 - Update the ticket status and resolution notes according to organizational procedures.
 
-
 **Resolution or Escalation**
 
 - If connectivity has been restored and the reported issue is resolved, update the incident with the completed troubleshooting and validation results and close or resolve the ticket according to organizational procedures.
 - If connectivity is not restored, or if additional troubleshooting falls outside the technician's authorized scope, document all findings and escalate the incident to the appropriate team.
 - Include enough diagnostic detail in the escalation so the receiving team can continue troubleshooting without repeating completed first-line steps.
 
-
-**Evidence and Record Retention**
-
-- Retain required screenshots, command output, or other troubleshooting evidence when permitted by organizational procedures.
-- Before attaching or publishing screenshots, review them for sensitive information such as usernames, hostnames, internal domains, IP addresses, MAC addresses, credentials, customer information, or other restricted data.
-- In a production environment, follow organizational requirements for ticket attachments, evidence retention, and data handling.
-
-
 **Work Instruction Completion**
 
 - Confirm that the final connectivity test has been completed and documented.
 - Confirm that the incident record contains the troubleshooting steps, remediation, validation results, and final disposition.
 - If service has been restored, resolve the ticket. If the issue remains unresolved or exceeds scope, complete the required escalation and handoff.
-
 
 **END OF WORK INSTRUCTION**
 
