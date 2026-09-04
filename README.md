@@ -70,6 +70,14 @@ When this procedure is completed, the technician ought be able to determine whet
 
 The technician should be able to restore the adapter when authorized, validate connectivity from the original administrative workstation, and document either a successful resolution or the need for escalation.
 
+**Scenario**
+
+The technician receives an incident ticket reporting that a Windows Server 2022 system is unreachable. The ticket identifies the affected server and provides the known IP address, `192.168.1.10`, along with the applicable work instruction or reference to the approved troubleshooting procedure.
+
+The technician begins from the originating administrative workstation by confirming the reported condition with a basic connectivity test. If the server does not respond, the technician follows the decision tree and performs the approved first-line troubleshooting steps contained in this work instruction.
+
+If the issue is resolved, the technician documents the troubleshooting steps, remediation, and validation results in the incident record. If the issue remains unresolved or exceeds the defined scope, the technician documents the findings and escalates the incident according to organizational procedures.
+
 **Network Adapter Troubleshooting Decision Tree**
 
 - Review the decision tree before beginning troubleshooting.
