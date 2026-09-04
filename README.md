@@ -12,7 +12,7 @@ This repository contains a lab-based Windows Server 2022 network recovery work i
 
 ***
 
-**WORK INSTRUCTION: WINDOWS SERVER NIC RECOVERY**
+**BEGINNING OF WORK INSTRUCTION**
 
 Document Title: WORK INSTRUCTION: Windows Server Network Adapter Recovery  
 Document Owner/Responsible Technician: Christopher Bueker  
