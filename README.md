@@ -4,11 +4,19 @@ Windows Server work instruction for diagnosing a disabled network adapter, resto
 
 **Introduction**
 
-Standardized procedures are critical in IT because they help technicians perform technical work in a consistent and repeatable way. Quality work instructions are especially useful for troubleshooting processes that include multiple steps, decision points, validation requirements, or escalation boundaries.
+Standardized procedures are critical in IT departments because they help technicians perform technical work in a consistent and reliable way. High-quality work instructions are particularly useful for troubleshooting processes that include multiple steps, decision points, validation requirements, and clearly defined scope or escalation boundaries.
 
-Work instructions also help new technicians get up and running more quickly by reducing overreliance on tribal knowledge. Technician experience is still valuable, but it is strongest when supported by documentation that is accurate, current, accessible, and easy to find.
+Quality work instructions also help new technicians get up and running more quickly by reducing an over-reliance on tribal knowledge. Technician experience is still valuable, but it is strongest when it is supported by official organizational documentation that is accurate, current, accessible, and easy to find.
 
-This repository contains a lab-based Windows Server 2022 network recovery work instruction informed by my professional Infrastructure Operations Center and Command Center experience. It demonstrates how a technician can confirm a connectivity issue, troubleshoot from the local TCP/IP stack outward, restore a disabled network adapter, validate recovery, document the outcome, and escalate when appropriate.
+The repository that I have done here contains a lab-based Windows Server 2022 Network Recovery Work Instruction. I created this work instruction using my personal lab and informed it through my professional experience in Infrastructure Operations Center and Command Center environments. I demonstrate how a technician can confirm a connectivity issue, troubleshoot from the local TCP/IP stack outward, restore a disabled network adapter, validate the recovery, document the outcome, and, if necessary, escalate the issue according to organizational procedures.
+
+**Objectives**
+
+- Create a complete Windows Server 2022 network recovery work instruction for a first-line troubleshooting scenario.
+- Demonstrate a structured troubleshooting process that includes validation, decision points, remediation, and escalation boundaries.
+- Show the use of screenshots, redaction, visual callouts, and a decision tree to make the procedure clear and easy to follow.
+- Demonstrate how a technician can validate a reported connectivity failure, identify a disabled network adapter, restore it, and confirm recovery.
+- Show how standardized work instructions can support technician onboarding, knowledge transfer, troubleshooting consistency, and incident resolution.
 
 ***
 
@@ -189,9 +197,9 @@ The technician should be able to restore the adapter when authorized, validate c
 
 **Summary**
 
-The objective of this project was to create a complete Windows Server 2022 network recovery work instruction that combines first-line troubleshooting, validation, documentation, and escalation guidance. The procedure walks through confirming that the server is unreachable, testing the loopback address, identifying a disabled network adapter, restoring the adapter, validating its status, and confirming connectivity from the original administrative workstation.
+The objective of my project was to create a complete Windows Server 2022 Network Recovery Work Instruction that combines initial troubleshooting, validation, documentation, and escalation procedures. The procedure walks through confirming and validating that the server is not reachable by ping, testing the loopback address, identifying a disabled network adapter, restoring the adapter, validating its status, and then confirming connectivity from the original administrative workstation.
 
-The project also demonstrates the value of standardized technical documentation in IT operations. By combining a decision tree, clear scope, approved remediation, validation steps, and ticket documentation requirements, the work instruction provides a repeatable process that can support troubleshooting consistency, onboarding, knowledge transfer, and more efficient incident resolution.
+This project also demonstrates the value of standardized technical documentation in IT operations. By including a decision tree, clear scope boundaries, approved remediation steps, validation requirements, and ticket documentation expectations, the work instruction provides a repeatable process that can support troubleshooting consistency, IT technician onboarding, knowledge transfer, and more efficient incident resolution.
 
 **Navigation**
 
