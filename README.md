@@ -4,6 +4,51 @@ Windows Server work instruction for diagnosing a disabled network adapter, resto
 
 **WORK INSTRUCTION: WINDOWS SERVER NIC RECOVERY**
 
+Document Title: WORK INSTRUCTION: Windows Server Network Adapter Recovery  
+Document Owner/Responsible Technician: Christopher Bueker  
+Version: 1.0  
+Effective Date: September 4, 2026  
+Next Review Date: August 30, 2027  
+Approval Status: Not Applicable  
+
+**Purpose**
+
+The purpose of this work instruction is to provide a repeatable first-line troubleshooting process for a Windows Server that is reported as unreachable when a disabled network adapter may be the cause.
+
+The procedure guides the technician through confirming the reported condition, validating the local TCP/IP stack, inspecting the network adapter, performing approved remediation, validating recovery from the original administrative workstation, and documenting the outcome.
+
+**Scope**
+
+This work instruction applies to Windows Server systems where:
+
+- The server has been reported as unreachable or not responding to a basic connectivity test.
+- Local console, hypervisor console, or other approved direct access to the server remains available.
+- First-line personnel are authorized to inspect and re-enable a disabled network adapter.
+
+Issues that extend beyond the defined first-line troubleshooting scope should be documented and escalated to the appropriate team according to organizational procedures.
+
+**Intended Audience**
+
+This work instruction is intended for Command Center, Infrastructure Operations Center, Service Desk, or other first-line IT personnel responsible for initial server connectivity validation and approved remediation.
+
+**Required Access and Prerequisites**
+
+- Access to the originating administrative workstation.
+- Known hostname or IP address of the affected Windows Server.
+- Approved local, virtual, or hypervisor console access to the Windows Server.
+- Administrative permissions sufficient to inspect and enable network adapters.
+- An active incident or service ticket when required by organizational procedure.
+
+**Cautions**
+
+Changes to a network adapter can interrupt remote connectivity. Confirm that console access is available before disabling, enabling, restarting, or otherwise modifying a server network interface.
+
+Do not perform broader network, firewall, routing, VLAN, operating-system, or infrastructure changes unless they are within the technician's authorized scope. Document findings and escalate when the issue exceeds the scope of this instruction.
+
+**Expected Outcome**
+
+At completion of this procedure, the technician should be able to determine whether a disabled Windows Server network adapter caused the reported connectivity failure, restore the adapter when authorized, validate connectivity from the original workstation, and document either successful resolution or the need for escalation.
+
 **Network Adapter Troubleshooting Decision Tree**
 
 - Review the decision tree before beginning troubleshooting.
