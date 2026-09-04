@@ -22,7 +22,7 @@ The repository that I have done here contains a lab-based Windows Server 2022 Ne
 
 **BEGINNING OF WORK INSTRUCTION**
 
-Document Title: WORK INSTRUCTION: Windows Server Network Adapter Recovery  
+Document Title: Work Instruction: Windows Server Network Adapter Recovery  
 Document Owner/Responsible Technician: Christopher Bueker  
 Version: 1.0  
 Effective Date: September 4, 2026  
