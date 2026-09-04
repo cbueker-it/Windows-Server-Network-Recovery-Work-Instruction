@@ -15,7 +15,7 @@ Approval Status: Not Applicable
 
 The purpose and objective of this work instruction is to provide a repeatable first-line troubleshooting process for a Windows Server 2022 system that is unreachable when a disabled network adapter may be the cause.
 
-The procedure that is described here guides the IT technician through confirming that the server is unreachable, validating the local TCP/IP stack by pinging the loopback address, inspecting the network adapter, performing the approved remediation, restoring the network adapter, validating that the recovery worked from the original administrative workstation, and documenting the outcome.
+This procedure guides the IT technician through confirming that the server is unreachable, validating the local TCP/IP stack by pinging the loopback address, and inspecting the network adapter; it also involves performing the approved remediation, restoring the network adapter, validating that the recovery worked from the original administrative workstation, and documenting the outcome.
 
 **Scope**
 
@@ -23,11 +23,11 @@ This work instruction applies to Windows Server systems where the server is repo
 
 It applies when local console, hypervisor, or other approved direct access to the server remains available and when first-line technicians are authorized to inspect and re-enable a disabled network adapter.
 
-Technical issues that go beyond this defined troubleshooting scope should be documented and escalated to the appropriate team according to organizational procedures.
+Technical issues that go beyond this defined troubleshooting scope should be documented and escalated to the appropriate team.
 
 **Intended Audience**
 
-This work instruction is designed for Command Center, Infrastructure Operations Center, Service Desk, or other first-line IT personnel and IT technicians responsible for initial server connectivity validation and approved remediation.
+This work instruction is designed for Command Center, Infrastructure Operations Center, Service Desk, or other IT technicians responsible for initial server connectivity validation and approved remediation.
 
 **Required Access and Prerequisites**
 
@@ -35,7 +35,7 @@ This work instruction is designed for Command Center, Infrastructure Operations 
 - Known hostname or IP address of the affected Windows Server.
 - Approved local, virtual, or hypervisor console access to the Windows Server.
 - Administrative permissions sufficient to inspect and enable network adapters.
-- An active incident or service ticket when required by organizational procedure.
+- An active incident or service ticket.
 
 **Cautions**
 
@@ -48,7 +48,7 @@ Do not perform broader network, firewall, routing, VLAN, operating system, or in
 
 **Expected Outcome**
 
-When this procedure is completed, the technician should be able to determine whether a disabled Windows Server network adapter caused the reported connectivity failure.
+When this procedure is completed, the technician ought be able to determine whether a disabled Windows Server network adapter caused the reported connectivity failure.
 
 The technician should be able to restore the adapter when authorized, validate connectivity from the original administrative workstation, and document either a successful resolution or the need for escalation.
 
