@@ -87,7 +87,7 @@ Windows Server work instruction for diagnosing a disabled network adapter, resto
 - Review the `Status` field and confirm that the Ethernet adapter reports `Up`.
 - As an alternative remediation method for technicians authorized and comfortable with PowerShell, a disabled adapter can be enabled with `Enable-NetAdapter -Name "Ethernet" -Confirm:$false`.
 
-![PowerShell Confirmation](images/08%20PowerShell%20Confirmation.png)
+![PowerShell Confirmation](images/08%20Powershell%20Confirmation.png)
 
 
 **Connectivity Restored**
